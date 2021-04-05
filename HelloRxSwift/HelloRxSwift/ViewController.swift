@@ -37,11 +37,11 @@ class ViewController: UIViewController {
     @IBAction func applyFilterButton(_ sender: Any) {
         guard let sourceImage = self.photoImageView.image else { return }
         
-        FilterService().applyFilter(to: sourceImage, completion: { filteredImage in
+        FilterService().applyFilter(to: sourceImage).subscribe(onNext: { filterImage in
             DispatchQueue.main.async {
-                self.photoImageView.image = filteredImage
+                self.photoImageView.image = filterImage
             }
-        })
+        }).disposed(by: disposeBag)
     }
     
     private func updateUI(with image: UIImage) {
