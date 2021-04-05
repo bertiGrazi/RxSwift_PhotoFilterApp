@@ -8,14 +8,9 @@
 import Foundation
 import UIKit
 import Photos
-import RxSwift
+
 
 class PhotosCollectionViewController: UICollectionViewController {
-    
-    private let selectPhotoSubject = PublishSubject<UIImage>()
-    var selectPhoto: Observable<UIImage>{
-        return selectPhotoSubject.asObserver()
-    }
     
     private var images = [PHAsset]()
     
