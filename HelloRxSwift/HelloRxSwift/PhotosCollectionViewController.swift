@@ -37,7 +37,7 @@ class PhotosCollectionViewController: UICollectionViewController {
             
             guard let info = info else { return }
             
-            let isDegradedImage = info["PHImageResultIsDegradeKey"] as! Bool
+            let isDegradedImage = info["PHImageResultIsDegradedKey"] as! Bool
             
             if !isDegradedImage {
                 if let image = image {
