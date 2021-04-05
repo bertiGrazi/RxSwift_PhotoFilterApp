@@ -21,6 +21,7 @@
 		F24243C7260CA89700634822 /* HelloRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24243C6260CA89700634822 /* HelloRxSwiftUITests.swift */; };
 		F261C7A5261B39EF0031A967 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F261C7A4261B39EF0031A967 /* PhotosCollectionViewCell.swift */; };
 		F26B411B260CEE0300194B01 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B411A260CEE0300194B01 /* PhotosCollectionViewController.swift */; };
+		F27769F5261B6FD000976C79 /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27769F4261B6FD000976C79 /* FilterService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		F24243C8260CA89700634822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F261C7A4261B39EF0031A967 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
 		F26B411A260CEE0300194B01 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		F27769F4261B6FD000976C79 /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
 		F2B7B3E5260CABB500231ACB /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F9F52634F76CE23BFD9FA87B /* Pods_HelloRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -157,6 +159,7 @@
 				F24243AA260CA89300634822 /* HelloRxSwift.xcdatamodeld */,
 				F26B411A260CEE0300194B01 /* PhotosCollectionViewController.swift */,
 				F261C7A4261B39EF0031A967 /* PhotosCollectionViewCell.swift */,
+				F27769F4261B6FD000976C79 /* FilterService.swift */,
 			);
 			path = HelloRxSwift;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				F24243AC260CA89300634822 /* HelloRxSwift.xcdatamodeld in Sources */,
 				F24243A6260CA89300634822 /* ViewController.swift in Sources */,
 				F24243A2260CA89300634822 /* AppDelegate.swift in Sources */,
+				F27769F5261B6FD000976C79 /* FilterService.swift in Sources */,
 				F26B411B260CEE0300194B01 /* PhotosCollectionViewController.swift in Sources */,
 				F24243A4260CA89300634822 /* SceneDelegate.swift in Sources */,
 				F261C7A5261B39EF0031A967 /* PhotosCollectionViewCell.swift in Sources */,
