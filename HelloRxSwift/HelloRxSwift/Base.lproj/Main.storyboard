@@ -28,6 +28,9 @@
                                     <color key="titleColor" systemColor="systemGroupedBackgroundColor"/>
                                     <color key="titleShadowColor" systemColor="systemPurpleColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="applyFilterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oau-Qw-4fO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -51,6 +54,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="applyFilterButton" destination="cTD-pE-9GZ" id="BOQ-YW-Vq6"/>
                         <outlet property="photoImageView" destination="OPg-1o-qwF" id="1nP-6Z-Rtm"/>
                     </connections>
                 </viewController>
